@@ -219,7 +219,7 @@ export default function Explorer() {
     <div className="bg-background min-h-screen">
       <Header />
       <main className="container mx-auto max-w-7xl px-4 py-8">
-        {/* Search Bar - Desktop Only */}
+        {/* Search Bar */}
         <div className="mb-6 justify-center lg:flex">
           <div className="w-full max-w-2xl">
             <SearchBar />
