@@ -1,4 +1,4 @@
-import { Moon, Sun, Menu } from "lucide-react";
+import { Moon, Sun, SlidersHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -7,7 +7,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { SearchBar } from "@/components/SearchBar";
 import { TypeFilter } from "@/components/TypeFilter";
 import { GenerationFilter } from "@/components/GenerationFilter";
 import { SortSelect } from "@/components/SortSelect";
@@ -30,16 +29,15 @@ export function Header() {
                 className="rounded-full lg:hidden"
                 aria-label="Open menu"
               >
-                <Menu className="h-5 w-5" />
+                <SlidersHorizontal className="h-5 w-5" />
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-80 overflow-y-auto">
               <SheetHeader>
-                <SheetTitle>Search & Filters</SheetTitle>
+                <SheetTitle>Filters</SheetTitle>
               </SheetHeader>
-              <div className="mt-6 space-y-6">
-                <SearchBar />
-                <div className="border-border border-t pt-6">
+              <div className="mt-auto space-y-6">
+                <div className="border-border pt-6">
                   <TypeFilter />
                 </div>
                 <div className="border-border border-t pt-6">
