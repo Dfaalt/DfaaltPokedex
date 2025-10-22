@@ -219,6 +219,13 @@ export default function Explorer() {
     <div className="bg-background min-h-screen">
       <Header />
 
+      {/* Mobile SearchBar tepat di bawah header */}
+      <div className="bg-background/80 supports-[backdrop-filter]:bg-background/60 border-border sticky top-16 z-40 border-b backdrop-blur lg:hidden">
+        <div className="container mx-auto max-w-7xl px-4 py-3">
+          <SearchBar />
+        </div>
+      </div>
+
       <main className="container mx-auto max-w-7xl px-4 py-8">
         {/* Search Bar - Desktop Only */}
         <div className="mb-6 hidden justify-center lg:flex">
