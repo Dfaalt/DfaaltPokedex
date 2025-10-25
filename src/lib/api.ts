@@ -184,7 +184,7 @@ export function extractIdFromUrl(url: string): number {
 // Get list of Mega Evolution and Gigantamax forms
 export function getSpecialForms(): string[] {
   return [
-    // Mega Evolutions
+    // === Mega Evolutions ===
     "venusaur-mega",
     "charizard-mega-x",
     "charizard-mega-y",
@@ -234,30 +234,49 @@ export function getSpecialForms(): string[] {
     "audino-mega",
     "diancie-mega",
 
-    // Regional forms - Alola (contoh umum)
-    "raichu-alola",
-    "vulpix-alola",
-    "ninetales-alola",
-    "meowth-alola",
+    // === Regional forms - Alola ===
     "rattata-alola",
     "raticate-alola",
+    "raichu-alola",
     "sandshrew-alola",
     "sandslash-alola",
+    "vulpix-alola",
+    "ninetales-alola",
+    "diglett-alola",
+    "dugtrio-alola",
+    "meowth-alola",
+    "persian-alola",
+    "geodude-alola",
+    "graveler-alola",
+    "golem-alola",
     "grimer-alola",
     "muk-alola",
+    "exeggutor-alola",
     "marowak-alola",
 
-    // Regional forms - Galar (contoh umum)
+    // === Regional forms - Galar ===
     "meowth-galar",
-    "zigzagoon-galar",
-    "linoone-galar",
     "ponyta-galar",
     "rapidash-galar",
+    "slowpoke-galar",
+    "slowbro-galar",
+    "slowking-galar",
     "farfetchd-galar",
+    "weezing-galar",
+    "mr-mime-galar",
+    "articuno-galar",
+    "zapdos-galar",
+    "moltres-galar",
     "corsola-galar",
+    "zigzagoon-galar",
+    "linoone-galar",
+    "obstagoon",
     "darmanitan-galar-standard",
+    "darmanitan-galar-zen",
+    "yamask-galar",
+    "stunfisk-galar",
 
-    // Gigantamax forms
+    // === Gigantamax forms ===
     "venusaur-gmax",
     "charizard-gmax",
     "blastoise-gmax",
@@ -292,5 +311,41 @@ export function getSpecialForms(): string[] {
     "duraludon-gmax",
     "urshifu-single-strike-gmax",
     "urshifu-rapid-strike-gmax",
+
+    // === Regional forms - Hisui ===
+    "growlithe-hisui",
+    "arcanine-hisui",
+    "voltorb-hisui",
+    "electrode-hisui",
+    "qwilfish-hisui",
+    "sneasel-hisui",
+    "samurott-hisui",
+    "lilligant-hisui",
+    "zorua-hisui",
+    "zoroark-hisui",
+    "braviary-hisui",
+    "sliggoo-hisui",
+    "goodra-hisui",
+    "avalugg-hisui",
+    "decidueye-hisui",
+    "basculegion-female",
+
+    // === Regional forms - Paldea ===
+    "wooper-paldea",
+    "tauros-paldea-combat-breed",
+    "tauros-paldea-blaze-breed",
+    "tauros-paldea-aqua-breed",
+    "palafin-hero",
+    "maushold-family-of-three",
+    "tatsugiri-droopy",
+    "tatsugiri-stretchy",
+    "squawkabilly-blue",
+    "squawkabilly-yellow",
+    "squawkabilly-white",
+    "squawkabilly-green",
+    "oinkologne-female",
+    "dudunsparce-three-segment",
+    "gimmighoul-roaming",
+    "ursaluna-bloodmoon",
   ];
 }

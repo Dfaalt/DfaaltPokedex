@@ -20,7 +20,6 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
           <img
             src={imageUrl}
             alt={pokemon.name}
-            loading="lazy"
             className="max-h-[80%] max-w-[80%] object-contain transition-transform duration-300 group-hover:scale-105"
           />
           <div className="bg-background/80 absolute top-2 right-2 rounded-full border border-sky-400/40 px-2 py-0.5 font-mono text-[10px] backdrop-blur-sm sm:text-xs">
